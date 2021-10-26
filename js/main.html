@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=0.8,user-scalable=false"/>
+		<title>平安成电智慧同行</title>
+		<style type="text/css">
+		
+		#div1{
+			width: 800px;
+			height: 150px;
+			line-height: 150px;
+			border-bottom: solid 1px grey;
+		}
+		.fontstyle{
+			font-family: "微软雅黑";
+			font-size: 18px;
+			margin-left: 5px;
+			margin-top: 1px;
+			color: #333;
+			font-weight: 600;
+			margin-bottom: 5px;
+		}
+		.fontstyle2{
+			position: absolute;
+			width: 80%;
+			right: 10px;
+			font-family: "微软雅黑";
+			font-size: 28px;
+			font-weight: bold;
+			text-align: right;
+			margin-top: 2px;
+			
+		}
+		.fontstyle3{
+			width: 100%;
+			height: 30px;
+			line-height: 30px;
+			font-family: "微软雅黑";
+			font-size: 22px;
+			font-weight: bold;
+			text-align: right;
+			color: rgb(0,198,165);
+		}
+		.context{
+			position: absolute;
+			width: 200px;
+			height: 30px;
+			margin-top: 5px;
+			text-align: left;
+			overflow: hidden;
+			right: 10px;
+		}
+		.move{
+			width: 600px;
+			height: 30px;
+		}
+		.fontstyle4{
+			border: rgb(0,198,165) solid 1px;
+			border-radius: 5px;
+			height: 50px;
+			width: 200px;
+			font-size: 18px;
+			color: white;
+			background-color: rgb(0,198,165);
+			box-shadow: dimgrey 0px 1px 5px;
+		}
+		</style>
+	</head>
+	<body>
+		<div style="background-color: white;">
+			<div id="div1">
+				<h1 style="color: darkgreen;">研究生用户，入校授权有效！</h1>
+			</div>
+	
+			<form style="margin-top: 10px;">
+				<p style="width:100%; height: 25px;line-height: 25px;margin-bottom: 25px;">
+					<img src="../image/img1.png" width="25" height="25" />
+					<label class="fontstyle" >用户姓名</label>
+					<label id="showname" class="fontstyle2"></label>
+				</p>
+				<p style="width:100%; height: 25px;line-height: 25px; margin-bottom: 25px;">
+					<img src="../image/img2.png" width="25" height="25" />
+					<label class="fontstyle" >登记类型</label>
+					<label class="fontstyle2">研究生（硕士）</label>
+					<div class="context">
+						<div class="move" id="timebox">
+							<label id="time" class="fontstyle3"></label>
+						</div>
+					</div>
+					
+				</p>
+				<p style="width:100%; height: 25px;line-height: 25px;">
+					<img src="../image/img3.png" width="25" height="25" />
+					<label class="fontstyle" >登记时间</label>
+					<!--<label id="time" class="fontstyle3"></label>-->
+				</p>
+				
+			</form>
+			<p style="width: 100%; text-align: center;margin-top: 40px;"><button class="fontstyle4">前往个人二维码</button></p>
+			<p style="width: 100%; text-align: center;margin-top: 40px;"><img src="../image/img4.png" width="80" height="80"/></p>
+			<script src="show.js"></script>
+	
+		</div>
+		
+	</body>	
+</html>
